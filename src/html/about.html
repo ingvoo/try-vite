@@ -1,0 +1,14 @@
+{% extends "layout.html" %} {% block main %}
+<h1>about</h1>
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum impedit
+aspernatur maiores autem, totam est quaerat fugit recusandae delectus corporis
+quae perferendis, beatae nihil veniam blanditiis culpa nesciunt eveniet officia.
+
+<ul id="navigation">
+  {% for item in ['Home', 'About', 'contact'] %}
+  <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+
+{% endblock %}
