@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="module" src="./src/scripts/main.ts"></script>
+  </head>
+  <body>
+    <html-include src="./src/components/header.html"></html-include>
+
+    <details>
+      <summary>
+        <span data-menu-button>None</span>
+      </summary>
+      <details-menu role="menu">
+        <button type="button" role="menuitem" data-menu-button-text>
+          Hubot
+        </button>
+        <button type="button" role="menuitem" data-menu-button-text>
+          Bender
+        </button>
+        <button type="button" role="menuitem" data-menu-button-text>
+          BB-8
+        </button>
+      </details-menu>
+    </details>
+
+    <html-include src="./src/components/footer.html"></html-include>
+  </body>
+</html>
